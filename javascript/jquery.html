@@ -1,0 +1,687 @@
+<!DOCTYPE HTML>
+<html lang="zh-cn" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+        <title>jQuery 规范 | 前端开发规范手册</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.0.1">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="stylesheet" href="../zhibimo/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../zhibimo/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../zhibimo/images/favicon.ico" type="image/x-icon">
+        
+    
+    
+    <link rel="next" href="../javascript/performance.html" />
+    
+    
+    <link rel="prev" href="../javascript/general.html" />
+    
+
+        <script> var _hmt = _hmt || []; (function() {   var hm = document.createElement('script');   hm.src = '//hm.baidu.com/hm.js?f4c77fe2523e4a5d8092ddefe64d971a';   var s = document.getElementsByTagName('script')[0];    s.parentNode.insertBefore(hm, s); })();</script>
+    </head>
+    <body>
+        
+        
+    <link rel="stylesheet" href="../zhibimo/style.css">
+    
+    
+
+        
+    <div class="book" data-level="4.2" data-basepath=".." data-revision="Mon Sep 21 2015 21:42:16 GMT+0800 (CST)">
+    
+
+<div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="输入并搜索" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        
+        
+        
+
+        
+
+        
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                        <i class="fa fa-check"></i>
+                        
+                        首页
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="basic/index.html">
+            
+                
+                    <a href="../basic/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        基本原则
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="html/index.html">
+            
+                
+                    <a href="../html/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        HTML
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="html/general.html">
+            
+                
+                    <a href="../html/general.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        通用约定
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="html/semantic.html">
+            
+                
+                    <a href="../html/semantic.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        语义化
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="html/head.html">
+            
+                
+                    <a href="../html/head.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        HEAD
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="css/index.html">
+            
+                
+                    <a href="../css/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.</b>
+                        
+                        CSS
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="css/general.html">
+            
+                
+                    <a href="../css/general.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        通用约定
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="css/typography.html">
+            
+                
+                    <a href="../css/typography.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        字体排印
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="css/structure.html">
+            
+                
+                    <a href="../css/structure.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        模块组织
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="css/less.html">
+            
+                
+                    <a href="../css/less.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        Less 规范
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="css/performance.html">
+            
+                
+                    <a href="../css/performance.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        性能优化
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="javascript/index.html">
+            
+                
+                    <a href="../javascript/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        JavaScript
+                    </a>
+                
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1" data-path="javascript/general.html">
+            
+                
+                    <a href="../javascript/general.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.1.</b>
+                        
+                        通用约定
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="4.2" data-path="javascript/jquery.html">
+            
+                
+                    <a href="../javascript/jquery.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.2.</b>
+                        
+                        jQuery 规范
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="javascript/performance.html">
+            
+                
+                    <a href="../javascript/performance.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.3.</b>
+                        
+                        性能优化
+                    </a>
+                
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="mobile-optimize/index.html">
+            
+                
+                    <a href="../mobile-optimize/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>5.</b>
+                        
+                        移动端优化
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="6" data-path="tool/index.html">
+            
+                
+                    <a href="../tool/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>6.</b>
+                        
+                        工具箱
+                    </a>
+                
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="7" data-path="reference/index.html">
+            
+                
+                    <a href="../reference/index.html">
+                        <i class="fa fa-check"></i>
+                        
+                            <b>7.</b>
+                        
+                        参考
+                    </a>
+                
+            
+            
+        </li>
+    
+
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://itmyhome.com/" target="blank" class="zhibimo-link fa fa-copyright" style="text-align:center;">
+                &nbsp;麦田技术博客
+            </a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header">
+    <!-- Actions Left -->
+    <a href="#" class="btn pull-left toggle-summary" aria-label="目录"><i class="fa fa-align-justify"></i></a>
+    <!-- <a href="#" class="btn pull-left toggle-search" aria-label="搜索"><i class="fa fa-search"></i></a>
+    
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="字体设置"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">宋体</button>
+        <button type="button" data-font="1" class="button">黑体</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">白色</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">棕褐色</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">夜间</button>
+    </div>
+</div>
+
+    </div>
+
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="分享"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">
+                    分享到 Twitter
+                </button>
+                <button type="button" data-sharing="facebook" class="button">
+                    分享到 Facebook
+                </button>
+                <button type="button" data-sharing="instapaper" class="button">
+                    分享到 Instapaper
+                </button>
+            </div>
+        </div>
+    </div>
+
+    --> <a href="#" target="_blank" class="btn pull-right wechat-sharing-link sharing-link" data-sharing="wechat" aria-label="Wechat"><i class="fa fa-wechat"></i></a>
+    <a href="#" target="_blank" class="btn pull-right weibo-sharing-link sharing-link" data-sharing="weibo" aria-label="Weibo"><i class="fa fa-weibo"></i></a>
+
+    <div id='wechat_mask'>
+      <div id='wechat_qrcode_wrapper'>
+        <span><i class='fa fa-times'></i></span>
+        <div id='wechat_qrcode'></div>
+      </div>
+    </div>
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../index.html" >前端开发规范手册</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="jquery-%E8%A7%84%E8%8C%83">jQuery &#x89C4;&#x8303;</h1>
+<h4 id="%E4%BD%BF%E7%94%A8%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC%E7%9A%84-jquery">&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684; jQuery</h4>
+<p>&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684; jQuery &#x4F1A;&#x6539;&#x8FDB;&#x6027;&#x80FD;&#x548C;&#x589E;&#x52A0;&#x65B0;&#x529F;&#x80FD;&#xFF0C;&#x82E5;&#x4E0D;&#x662F;&#x4E3A;&#x4E86;&#x517C;&#x5BB9;&#x65E7;&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x6700;&#x65B0;&#x7248;&#x672C;&#x7684; jQuery&#x3002;&#x4EE5;&#x4E0B;&#x662F;&#x4E09;&#x6761;&#x5E38;&#x89C1;&#x7684; jQuery &#x8BED;&#x53E5;&#xFF0C;&#x7248;&#x672C;&#x8D8A;&#x65B0;&#xFF0C;&#x6027;&#x80FD;&#x8D8A;&#x597D;&#xFF1A;</p>
+<pre><code class="lang-javascript">$(<span class="hljs-string">&apos;.elem&apos;</span>)
+$(<span class="hljs-string">&apos;.elem&apos;</span>, context)
+context.find(<span class="hljs-string">&apos;.elem&apos;</span>)
+</code></pre>
+<p><img src="http://image.beekka.com/blog/201108/bg2011080301.png" alt="">
+<em>&#x5206;&#x522B;&#x4F7F;&#x7528; 1.4.2&#x3001;1.4.4&#x3001;1.6.2 &#x4E09;&#x4E2A;&#x7248;&#x672C;&#x6D4B;&#x8BD5;&#x6D4F;&#x89C8;&#x5668;&#x5728;&#x4E00;&#x79D2;&#x5185;&#x80FD;&#x591F;&#x6267;&#x884C;&#x591A;&#x5C11;&#x6B21;&#xFF0C;&#x7ED3;&#x679C; 1.6.2 &#x7248;&#x6267;&#x884C;&#x6B21;&#x6570;&#x8FDC;&#x8D85;&#x4E24;&#x4E2A;&#x8001;&#x7248;&#x672C;&#x3002;</em></p>
+<h4 id="jquery-%E5%8F%98%E9%87%8F">jQuery &#x53D8;&#x91CF;</h4>
+<ol>
+<li>&#x5B58;&#x653E; jQuery &#x5BF9;&#x8C61;&#x7684;&#x53D8;&#x91CF;&#x4EE5; <code>$</code> &#x5F00;&#x5934;&#xFF1B;</li>
+<li>&#x5C06; jQuery &#x9009;&#x62E9;&#x5668;&#x8FD4;&#x56DE;&#x7684;&#x5BF9;&#x8C61;&#x7F13;&#x5B58;&#x5230;&#x672C;&#x5730;&#x53D8;&#x91CF;&#x4E2D;&#x590D;&#x7528;&#xFF1B;</li>
+<li>&#x4F7F;&#x7528;&#x9A7C;&#x5CF0;&#x547D;&#x540D;&#x53D8;&#x91CF;&#xFF1B;</li>
+</ol>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> $myDiv = $(<span class="hljs-string">&quot;#myDiv&quot;</span>);
+$myDiv.click(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{...});
+</code></pre>
+<h4 id="%E9%80%89%E6%8B%A9%E5%99%A8">&#x9009;&#x62E9;&#x5668;</h4>
+<ol>
+<li>&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x4F7F;&#x7528; ID &#x9009;&#x62E9;&#x5668;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x4F1A;&#x8C03;&#x7528;&#x6D4F;&#x89C8;&#x5668;&#x539F;&#x751F;&#x65B9;&#x6CD5; <code>document.getElementById</code> &#x67E5;&#x627E;&#x5143;&#x7D20;&#x3002;&#x5F53;&#x7136;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x539F;&#x751F; <code>document.getElementById</code> &#x65B9;&#x6CD5;&#x6027;&#x80FD;&#x4F1A;&#x66F4;&#x597D;&#xFF1B;</li>
+<li>&#x5728;&#x7236;&#x5143;&#x7D20;&#x4E2D;&#x9009;&#x62E9;&#x5B50;&#x5143;&#x7D20;&#x4F7F;&#x7528; <code>.find()</code> &#x65B9;&#x6CD5;&#x6027;&#x80FD;&#x4F1A;&#x66F4;&#x597D;, &#x56E0;&#x4E3A; ID &#x9009;&#x62E9;&#x5668;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#x5230; Sizzle &#x9009;&#x62E9;&#x5668;&#x5F15;&#x64CE;&#x6765;&#x67E5;&#x627E;&#x5143;&#x7D20;&#xFF1B;</li>
+</ol>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Not recommended</span>
+<span class="hljs-keyword">var</span> $productIds = $(<span class="hljs-string">&quot;#products .class&quot;</span>);
+
+<span class="hljs-comment">// Recommended</span>
+<span class="hljs-keyword">var</span> $productIds = $(<span class="hljs-string">&quot;#products&quot;</span>).find(<span class="hljs-string">&quot;.class&quot;</span>);
+</code></pre>
+<h4 id="dom-%E6%93%8D%E4%BD%9C">DOM &#x64CD;&#x4F5C;</h4>
+<ol>
+<li>&#x5F53;&#x8981;&#x64CD;&#x4F5C; DOM &#x5143;&#x7D20;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5C3D;&#x91CF;&#x5C06;&#x5176;&#x5206;&#x79BB;&#x8282;&#x70B9;&#xFF0C;&#x64CD;&#x4F5C;&#x7ED3;&#x675F;&#x540E;&#xFF0C;&#x518D;&#x63D2;&#x5165;&#x8282;&#x70B9;&#xFF1B;</li>
+<li>&#x4F7F;&#x7528;&#x5B57;&#x7B26;&#x4E32;&#x8FDE;&#x63A5;&#x6216; <code>array.join</code> &#x8981;&#x6BD4; <code>.append()</code>&#x6027;&#x80FD;&#x66F4;&#x597D;&#xFF1B;</li>
+</ol>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> $myList = $(<span class="hljs-string">&quot;#list-container &gt; ul&quot;</span>).detach();
+<span class="hljs-comment">//...a lot of complicated things on $myList</span>
+$myList.appendTo(<span class="hljs-string">&quot;#list-container&quot;</span>);
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Not recommended</span>
+<span class="hljs-keyword">var</span> $myList = $(<span class="hljs-string">&quot;#list&quot;</span>);
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10000</span>; i++){
+    $myList.append(<span class="hljs-string">&quot;&lt;li&gt;&quot;</span>+i+<span class="hljs-string">&quot;&lt;/li&gt;&quot;</span>);
+}
+
+<span class="hljs-comment">// Recommended</span>
+<span class="hljs-keyword">var</span> $myList = $(<span class="hljs-string">&quot;#list&quot;</span>);
+<span class="hljs-keyword">var</span> list = <span class="hljs-string">&quot;&quot;</span>;
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10000</span>; i++){
+    list += <span class="hljs-string">&quot;&lt;li&gt;&quot;</span>+i+<span class="hljs-string">&quot;&lt;/li&gt;&quot;</span>;
+}
+$myList.html(list);
+
+<span class="hljs-comment">// Much to recommended</span>
+<span class="hljs-keyword">var</span> array = [];
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">10000</span>; i++){
+    array[i] = <span class="hljs-string">&quot;&lt;li&gt;&quot;</span>+i+<span class="hljs-string">&quot;&lt;/li&gt;&quot;</span>;
+}
+$myList.html(array.join(<span class="hljs-string">&apos;&apos;</span>));
+</code></pre>
+<h4 id="%E4%BA%8B%E4%BB%B6">&#x4E8B;&#x4EF6;</h4>
+<ol>
+<li>&#x5982;&#x679C;&#x9700;&#x8981;&#xFF0C;&#x5BF9;&#x4E8B;&#x4EF6;&#x4F7F;&#x7528;&#x81EA;&#x5B9A;&#x4E49;&#x7684; <code>namespace</code>&#xFF0C;&#x8FD9;&#x6837;&#x5BB9;&#x6613;&#x89E3;&#x7ED1;&#x7279;&#x5B9A;&#x7684;&#x4E8B;&#x4EF6;&#xFF0C;&#x800C;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x5230;&#x6B64; DOM &#x5143;&#x7D20;&#x7684;&#x5176;&#x4ED6;&#x4E8B;&#x4EF6;&#x76D1;&#x542C;&#xFF1B;</li>
+<li>&#x5BF9; Ajax &#x52A0;&#x8F7D;&#x7684; DOM &#x5143;&#x7D20;&#x7ED1;&#x5B9A;&#x4E8B;&#x4EF6;&#x65F6;&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;&#x3002;&#x4E8B;&#x4EF6;&#x59D4;&#x6258;&#x5141;&#x8BB8;&#x5728;&#x7236;&#x5143;&#x7D20;&#x7ED1;&#x5B9A;&#x4E8B;&#x4EF6;&#xFF0C;&#x5B50;&#x4EE3;&#x5143;&#x7D20;&#x53EF;&#x4EE5;&#x54CD;&#x5E94;&#x4E8B;&#x4EF6;&#xFF0C;&#x4E5F;&#x5305;&#x62EC; Ajax &#x52A0;&#x8F7D;&#x540E;&#x6DFB;&#x52A0;&#x7684;&#x5B50;&#x4EE3;&#x5143;&#x7D20;&#xFF1B;</li>
+</ol>
+<pre><code class="lang-javascript">$(<span class="hljs-string">&quot;#myLink&quot;</span>).on(<span class="hljs-string">&quot;click.mySpecialClick&quot;</span>, myEventHandler);
+$(<span class="hljs-string">&quot;#myLink&quot;</span>).unbind(<span class="hljs-string">&quot;click.mySpecialClick&quot;</span>);
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Not recommended</span>
+$(<span class="hljs-string">&quot;#list a&quot;</span>).on(<span class="hljs-string">&quot;click&quot;</span>, myClickHandler);
+
+<span class="hljs-comment">// Recommended</span>
+$(<span class="hljs-string">&quot;#list&quot;</span>).on(<span class="hljs-string">&quot;click&quot;</span>, <span class="hljs-string">&quot;a&quot;</span>, myClickHandler);
+</code></pre>
+<h4 id="%E9%93%BE%E5%BC%8F%E5%86%99%E6%B3%95">&#x94FE;&#x5F0F;&#x5199;&#x6CD5;</h4>
+<ol>
+<li>&#x5C3D;&#x91CF;&#x4F7F;&#x7528;&#x94FE;&#x5F0F;&#x5199;&#x6CD5;&#x800C;&#x4E0D;&#x662F;&#x7528;&#x53D8;&#x91CF;&#x7F13;&#x5B58;&#x6216;&#x8005;&#x591A;&#x6B21;&#x8C03;&#x7528;&#x9009;&#x62E9;&#x5668;&#x65B9;&#x6CD5;&#xFF1B;</li>
+<li>&#x5F53;&#x94FE;&#x5F0F;&#x5199;&#x6CD5;&#x8D85;&#x8FC7;&#x4E09;&#x6B21;&#x6216;&#x8005;&#x56E0;&#x4E3A;&#x4E8B;&#x4EF6;&#x7ED1;&#x5B9A;&#x53D8;&#x5F97;&#x590D;&#x6742;&#x540E;&#xFF0C;&#x4F7F;&#x7528;&#x6362;&#x884C;&#x548C;&#x7F29;&#x8FDB;&#x4FDD;&#x6301;&#x4EE3;&#x7801;&#x53EF;&#x8BFB;&#x6027;&#xFF1B;</li>
+</ol>
+<pre><code class="lang-javascript">$(<span class="hljs-string">&quot;#myDiv&quot;</span>).addClass(<span class="hljs-string">&quot;error&quot;</span>).show();
+</code></pre>
+<pre><code class="lang-javascript">$(<span class="hljs-string">&quot;#myLink&quot;</span>)
+  .addClass(<span class="hljs-string">&quot;bold&quot;</span>)
+  .on(<span class="hljs-string">&quot;click&quot;</span>, myClickHandler)
+  .on(<span class="hljs-string">&quot;mouseover&quot;</span>, myMouseOverHandler)
+  .show();
+</code></pre>
+<h4 id="%E5%85%B6%E4%BB%96">&#x5176;&#x4ED6;</h4>
+<ol>
+<li>&#x591A;&#x4E2A;&#x53C2;&#x6570;&#x4F7F;&#x7528;&#x5BF9;&#x8C61;&#x5B57;&#x9762;&#x91CF;&#x5B58;&#x50A8;&#xFF1B;</li>
+<li>&#x4E0D;&#x8981;&#x5C06; CSS &#x5199;&#x5728; jQuery &#x91CC;&#x9762;&#xFF1B;</li>
+<li>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x4EC5;&#x51C6;&#x7528; .test() &#x548C; .exec() &#x3002;&#x4E0D;&#x51C6;&#x7528; &quot;string&quot;.match() &#xFF1B;</li>
+</ol>
+<h4 id="jquery-%E6%8F%92%E4%BB%B6%E6%A8%A1%E6%9D%BF">jQuery &#x63D2;&#x4EF6;&#x6A21;&#x677F;</h4>
+<pre><code class="lang-javascript"><span class="hljs-comment">// jQuery Plugin Boilerplate</span>
+<span class="hljs-comment">// A boilerplate for jumpstarting jQuery plugins development</span>
+<span class="hljs-comment">// version 1.1, May 14th, 2011</span>
+<span class="hljs-comment">// by Stefan Gabos</span>
+
+<span class="hljs-comment">// remember to change every instance of &quot;pluginName&quot; to the name of your plugin!</span>
+(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">($)</span> </span>{
+
+    <span class="hljs-comment">// here we go!</span>
+    $.pluginName = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(element, options)</span> </span>{
+
+        <span class="hljs-comment">// plugin&apos;s default options</span>
+        <span class="hljs-comment">// this is private property and is  accessible only from inside the plugin</span>
+        <span class="hljs-keyword">var</span> defaults = {
+
+            foo: <span class="hljs-string">&apos;bar&apos;</span>,
+
+            <span class="hljs-comment">// if your plugin is event-driven, you may provide callback capabilities</span>
+            <span class="hljs-comment">// for its events. execute these functions before or after events of your</span>
+            <span class="hljs-comment">// plugin, so that users may customize those particular events without</span>
+            <span class="hljs-comment">// changing the plugin&apos;s code</span>
+            onFoo: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{}
+
+        }
+
+        <span class="hljs-comment">// to avoid confusions, use &quot;plugin&quot; to reference the</span>
+        <span class="hljs-comment">// current instance of the object</span>
+        <span class="hljs-keyword">var</span> plugin = <span class="hljs-keyword">this</span>;
+
+        <span class="hljs-comment">// this will hold the merged default, and user-provided options</span>
+        <span class="hljs-comment">// plugin&apos;s properties will be available through this object like:</span>
+        <span class="hljs-comment">// plugin.settings.propertyName from inside the plugin or</span>
+        <span class="hljs-comment">// element.data(&apos;pluginName&apos;).settings.propertyName from outside the plugin,</span>
+        <span class="hljs-comment">// where &quot;element&quot; is the element the plugin is attached to;</span>
+        plugin.settings = {}
+
+        <span class="hljs-keyword">var</span> $element = $(element), <span class="hljs-comment">// reference to the jQuery version of DOM element</span>
+             element = element;    <span class="hljs-comment">// reference to the actual DOM element</span>
+
+        <span class="hljs-comment">// the &quot;constructor&quot; method that gets called when the object is created</span>
+        plugin.init = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+
+            <span class="hljs-comment">// the plugin&apos;s final properties are the merged default and</span>
+            <span class="hljs-comment">// user-provided options (if any)</span>
+            plugin.settings = $.extend({}, defaults, options);
+
+            <span class="hljs-comment">// code goes here</span>
+
+        }
+
+        <span class="hljs-comment">// public methods</span>
+        <span class="hljs-comment">// these methods can be called like:</span>
+        <span class="hljs-comment">// plugin.methodName(arg1, arg2, ... argn) from inside the plugin or</span>
+        <span class="hljs-comment">// element.data(&apos;pluginName&apos;).publicMethod(arg1, arg2, ... argn) from outside</span>
+        <span class="hljs-comment">// the plugin, where &quot;element&quot; is the element the plugin is attached to;</span>
+
+        <span class="hljs-comment">// a public method. for demonstration purposes only - remove it!</span>
+        plugin.foo_public_method = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+
+            <span class="hljs-comment">// code goes here</span>
+
+        }
+
+        <span class="hljs-comment">// private methods</span>
+        <span class="hljs-comment">// these methods can be called only from inside the plugin like:</span>
+        <span class="hljs-comment">// methodName(arg1, arg2, ... argn)</span>
+
+        <span class="hljs-comment">// a private method. for demonstration purposes only - remove it!</span>
+        <span class="hljs-keyword">var</span> foo_private_method = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+
+            <span class="hljs-comment">// code goes here</span>
+
+        }
+
+        <span class="hljs-comment">// fire up the plugin!</span>
+        <span class="hljs-comment">// call the &quot;constructor&quot; method</span>
+        plugin.init();
+
+    }
+
+    <span class="hljs-comment">// add the plugin to the jQuery.fn object</span>
+    $.fn.pluginName = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span> </span>{
+
+        <span class="hljs-comment">// iterate through the DOM elements we are attaching the plugin to</span>
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.each(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+
+            <span class="hljs-comment">// if plugin has not already been attached to the element</span>
+            <span class="hljs-keyword">if</span> (<span class="hljs-literal">undefined</span> == $(<span class="hljs-keyword">this</span>).data(<span class="hljs-string">&apos;pluginName&apos;</span>)) {
+
+                <span class="hljs-comment">// create a new instance of the plugin</span>
+                <span class="hljs-comment">// pass the DOM element and the user-provided options as arguments</span>
+                <span class="hljs-keyword">var</span> plugin = <span class="hljs-keyword">new</span> $.pluginName(<span class="hljs-keyword">this</span>, options);
+
+                <span class="hljs-comment">// in the jQuery version of the element</span>
+                <span class="hljs-comment">// store a reference to the plugin object</span>
+                <span class="hljs-comment">// you can later access the plugin and its methods and properties like</span>
+                <span class="hljs-comment">// element.data(&apos;pluginName&apos;).publicMethod(arg1, arg2, ... argn) or</span>
+                <span class="hljs-comment">// element.data(&apos;pluginName&apos;).settings.propertyName</span>
+                $(<span class="hljs-keyword">this</span>).data(<span class="hljs-string">&apos;pluginName&apos;</span>, plugin);
+
+            }
+
+        });
+
+    }
+
+})(jQuery);
+</code></pre>
+<p>&#x6B64; jQuery &#x63D2;&#x4EF6;&#x6A21;&#x677F;&#x51FA;&#x81EA;&#xFF1A;<a href="http://stefangabos.ro/jquery/jquery-plugin-boilerplate-revisited/" target="_blank">jQuery Plugin Boilerplate, revisited</a></p>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../javascript/general.html" class="navigation navigation-prev " aria-label="Previous page: 通用约定"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../javascript/performance.html" class="navigation navigation-next " aria-label="Next page: 性能优化" style="margin-right: 17px;"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../zhibimo/app.js"></script>
+
+    
+    <script src="../zhibimo/plugins/gitbook-plugin-tongji/client-tongji.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"fontSettings":{"theme":null,"family":"sans","size":2},"tongji":{"token":"f4c77fe2523e4a5d8092ddefe64d971a"}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
